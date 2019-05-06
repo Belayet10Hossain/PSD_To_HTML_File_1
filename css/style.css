@@ -1,0 +1,294 @@
+/* Google Fonts Lato */
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+/* Global CSS */
+*{
+	margin: 0;
+	padding-right: 0;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	color: #333;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+/* Header Section Start */
+header{
+	background: #f6f9f9;
+	padding: 15px 0px;
+}
+
+/* Banner Section Start */
+.banner-section{
+	background: url(../img/banner.png) no-repeat center;
+	background-size: cover;
+}
+.banner-section h1{
+	padding-top: 141px;
+	color: white;
+	text-align: center;
+	font-size: 120px;
+	letter-spacing: 2px;
+	font-weight: 700;
+}
+.title-border{
+	border: 1px solid #15a4fa;
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 18px;
+}	
+.banner-section p{
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 20px;
+}
+.btn-banner{
+	display: block;
+	border: 1px solid #15a4fa;
+	padding: 15px 35px;
+	font-size: 18px;
+	background: transparent;
+	color: white;
+	border-radius: 4px;
+	margin: 55px auto 45px;
+	transition: 0.4s ease-in-out;
+}
+.btn-banner:hover{
+	background: #15a4fa;
+	cursor: pointer;
+
+}
+.banner-section .fa{
+	color: #fff;
+	font-size: 35px;
+	display: block;
+	text-align: center;
+	padding-bottom: 40px;
+	
+}
+
+/* About Section Start */
+.about-section{
+	background: #f6f9f9; 
+	padding: 82px 0px 110px 0px ;
+}
+.about-section h2{
+	font-size: 40px;
+	text-align: center;
+	font-weight: 500;
+	color: #2d3950;
+}
+.about-section p{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 32px;
+	line-height: 30px; 
+	color: #999999;
+}
+/*-- Features Section Start --*/
+.features-section{
+	padding: 65px 0px;
+	background: #fff;
+}
+.flex-wrapper{
+	display: flex;
+	
+}
+.features-box{
+	text-align: center;
+}
+.features-box h3{
+	font-weight: 22px;
+	margin-top: 30px;
+}
+.features-box p{
+	font-weight: 15px;
+	width: 85%;
+	margin: 0 auto;
+	padding-top: 26px;
+}
+
+/*-- portfolio section Start --*/
+.portfolio-section{
+	background: #f6f9f9;
+	padding: 80px 0px 116px 0px ;
+	width: 100%;
+	float: left;
+}
+.portfolio-heading{
+	text-align: center;
+}
+.portfolio-heading h2{
+	font-size: 40px;
+	text-align: center;
+	font-weight: 500;
+	color: #2d3950;
+}
+.portfolio-heading p{
+	font-size: 17px;
+	text-align: center;
+	margin-top: 20px;
+	color: #999999;
+}
+.portfolio{
+	margin-top: 82px;
+}
+.portfolio-item{
+	width: 31.5%;
+	position: relative;
+	float: left;
+	margin: 10px;
+}
+.portfolio-item img{
+	width: 100%;
+}
+.img-hover{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(44,172,247,.8);
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: 0.4s ease-in-out;
+}
+.portfolio-item:hover .img-hover{
+	opacity: .8;
+}
+.img-hover ul{
+	display: flex;
+	justify-content: center;
+	margin-top: 30%;
+	margin-right: 40px;
+}
+.img-hover ul li{
+	list-style-type: none;
+	margin: 0 5px;
+	cursor: pointer;
+}
+.img-hover .fa{
+	width: 40px;
+	height: 40px;
+	border: 1px solid #fff;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 3px;
+}
+/*-- Contact Us Section Start --*/
+.contact-us-section{
+	background: url(../img/Stay-back.png);
+	padding: 75px 0px 70px 0px ;
+	width: 100%;
+	float: left;
+}
+.contact h2{
+	font-size: 40px;
+	text-align: center;
+	font-weight: 500;
+	color: #fff;
+}
+.contact p{
+	text-align: center;
+	color: #7c7e82;
+	margin-top: 22px;
+}
+.contact-form{
+	text-align: center;
+}
+.contact-form .name{
+	background: transparent;
+	border: 1px solid #999999;
+	margin-top: 51px;
+	border-radius: 3px;
+	width: 438px;
+	height: 62px;
+	padding-left: 18px;
+}
+.contact-form .email{
+	background: transparent;
+	margin: 22px 0px;
+	border: 1px solid #999999;
+	border-radius: 3px;
+	width: 438px;
+	height: 62px;
+	padding-left: 18px;
+}
+.contact-form .message{
+	background: transparent;
+	border: 1px solid #999999;
+	color: #999999;
+	border-radius: 3px;
+	width: 438px;
+	height: 161px;
+	padding-left: 18px;
+}
+.checkbox{
+	color: #fff;
+	padding-top: 20px;
+	
+}
+.contact-form .btn{
+	background: transparent;
+	border: 1px solid #15a4fa;
+	height: 47px;
+	width: 142px;
+	color: #fff;
+	text-align: center;
+	margin-left: 150px;
+	transition: 0.4s ease-in-out;
+}
+.contact-form .btn:hover{
+	background: #15a4fa;
+	cursor: pointer;
+}
+
+
+
+
+/*-- Footer Section Start --*/
+footer{
+	padding: 20px 0px;
+	width: 100%;
+	float: left;
+}
+.footer-left{
+	width: 50%;
+	float: left;
+}
+.footer-left p{
+	color: #999999;
+}
+.footer-right{
+	width: 50%;
+	float: left;
+	text-align: right;
+}
+.footer-right ul li{
+	list-style-type: none;
+	display: inline;
+	margin: 0 3px;
+}
+.footer-right .fa{
+	width: 40px;
+	height: 40px;
+	background: #15a4fa;
+	text-align: center;
+	color: #fff;
+	line-height: 40px;
+	border-radius: 3px;
+
+
+}
+
+
+
+
+
+
+
